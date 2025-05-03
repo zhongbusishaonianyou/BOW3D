@@ -4,6 +4,8 @@
 - we add code for visualizing edge points based on Link3D .
 - We modified the method for extracting candidate frames, suggested from [http://q](https://github.com/YungeCui/BoW3D/pulls).
 - We draw the PR curve by calculating the proportion of the inner points after the RANSAC point cloud registration. Maybe this approach is not very appropriate.We attempted to use most of the parameters in the algorithm as adjustable thresholds to plot the PR curve, but none of them could correctly reflect the performance of the method. The most reasonable parameter in the algorithm should be the number of ‘vMatchedIndex’.
+  ![2025-05-03_20-27](https://github.com/user-attachments/assets/4e8f3dbc-e517-4c0d-9e9e-f810fff4307f)
+
 # results
  |                                                    KITTI 00  |                                                              |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
