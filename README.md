@@ -27,6 +27,10 @@
    |  ![Figure_1](https://github.com/user-attachments/assets/cddd01fe-71a7-40d9-a9ca-e11e519b7ef2)|![Figure_2](https://github.com/user-attachments/assets/7e9d6752-dc38-4399-9ea0-4166870a0998)|
   
   - parameters setting :num_add_retrieve_features: 50(set 5 in paper),revisit_threshold: 4(set 3 in paper)
+ 
+   |                                                    KITTI 00  |                                                              |
+   | ------------------------------------------------------------ | ------------------------------------------------------------ |
+   | ![Figure_1](https://github.com/user-attachments/assets/0637334f-3866-4db3-bc1c-989086d4e0bc)|![Figure_2](https://github.com/user-attachments/assets/f1295813-9cde-4f7d-9683-c4978b850dce)|
 
    |                                                    KITTI 02  |                                                              |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
