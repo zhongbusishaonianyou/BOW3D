@@ -1,0 +1,6 @@
+<launch>
+<node name="bow3d" pkg="bow3d" type="bow3d" output="screen">
+</node>
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find bow3d)/rviz/viz.rviz"/>
+<rosparam command="load" file="$(find bow3d)/config/para.yaml" />
+</launch>

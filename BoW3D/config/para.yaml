@@ -1,0 +1,23 @@
+Link3d:
+  nScans : 64 
+  scanPeriod : 0.1 
+  minimumRange : 0.1
+  distanceTh : 0.4
+  matchTh : 6
+
+bow3d:
+
+  thr: 3.5
+  thf: 5
+  revisit_threshold: 4
+  num_nodes_exclude: 300
+  num_add_retrieve_features: 10
+
+dataset:
+
+  dataset_name: "kitti"
+  sequence_name: "02"
+  dataset_path: "/media/zgy/zgy/loop_closure"
+  pose_path: "/home/zgy/ROS/BOW3D/src/BoW3D/poses"
+  GTloop_path: "/home/zgy/ROS/BOW3D/src/BoW3D/gt_loop"
+  results_path: "/home/zgy/ROS/BOW3D/src/BoW3D/results"
