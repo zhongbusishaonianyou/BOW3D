@@ -41,7 +41,8 @@
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
    | ![Figure_3](https://github.com/user-attachments/assets/afa9c9c2-5937-4fa0-bb29-bcbea85d1ccb)|![Figure_4](https://github.com/user-attachments/assets/1b0bcbb8-9158-44e9-a574-f4597dc2878b)|
   ## analysis
-  We were unable to reproduce the results of the paper, but by adjusting the parameters, we found that the number of added feature points significantly affected the results. We speculate that the result in the paper should be the result after taking all the feature points. Unfortunately, the more feature points are added, the more time-consuming the algorithm becomes.
+  - We were unable to reproduce the results of the paper, but by adjusting the parameters, we found that the number of added feature points significantly affected the results. We speculate that the result in the paper should be the result after taking all the feature points. Unfortunately, the more feature points are added, the more time-consuming the algorithm becomes.
+  - Although link3d satisfies the rotation invariance property, due to the insufficient number of added feature points, it cannot guarantee that the same feature points are used when two frames are matched.
  # cite
 ```
 @ARTICLE{9944848,
