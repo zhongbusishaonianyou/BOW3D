@@ -181,7 +181,7 @@ int main(int argc, char** argv)
 
             if(loopFrameId == -1)
             {
-             cout <<"  "<< "\033[1;32mFrame"<< pCurrentFrame->mnId<<" "<< "has no Loop-closure Frame\033[0m" << endl;
+             cout <<"  "<< "\033[1;32mFrame"<< pCurrentFrame->mnId+1<<" "<< "has no Loop-closure Frame\033[0m" << endl;
              
              save_results << pCurrentFrame->mnId+1 << " " <<loopFrameId<< " "<<1<< " "<< loop_flag <<endl; 
              
@@ -189,7 +189,7 @@ int main(int argc, char** argv)
             else
             {
 
-             cout <<"  "<<"\033[1;32mFrame" << pCurrentFrame->mnId<<" "<<"has Loop-closure Frame\033[0m"<<loopFrameId << endl; 
+             cout <<"  "<<"\033[1;32mFrame" << pCurrentFrame->mnId+1<<" "<<"has Loop-closure Frame\033[0m"<<loopFrameId+1 << endl; 
         
              save_results << pCurrentFrame->mnId+1 << " " <<loopFrameId+1 << " "<< matched_count<< " "<< loop_flag <<endl; 
              
